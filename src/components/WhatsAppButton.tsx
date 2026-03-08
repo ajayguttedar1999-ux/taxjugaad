@@ -6,7 +6,7 @@ const WhatsAppButton = () => (
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Chat on WhatsApp"
-    className="fixed z-50 bottom-[100px] md:bottom-6 right-5 w-14 h-14 rounded-full flex items-center justify-center animate-pulse-soft"
+    className="fixed z-50 bottom-[100px] md:bottom-6 right-5 w-14 h-14 rounded-full flex items-center justify-center animate-pulse-every-5s"
     style={{ backgroundColor: "#25D366" }}
   >
     <svg viewBox="0 0 32 32" className="w-7 h-7 fill-white" xmlns="http://www.w3.org/2000/svg">
