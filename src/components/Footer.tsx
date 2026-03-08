@@ -18,7 +18,7 @@ const Footer = () => (
             WhatsApp
           </a>
           <a
-            href="https://instagram.com/taxjugaad"
+            href="https://instagram.com/a_jay.047"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted hover:text-primary transition-colors"
