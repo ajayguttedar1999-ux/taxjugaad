@@ -1,6 +1,6 @@
 import ScrollReveal from "./ScrollReveal";
 
-const WA_LINK = "https://wa.me/919XXXXXXXXX?text=Hi%20TaxJugaad%2C%20I%20want%20to%20book%20a%20%E2%82%B9999%20Clarity%20Call";
+const WA_LINK = "https://wa.me/919980591014?text=Hi%20TaxJugaad%2C%20I%20want%20to%20book%20a%20%E2%82%B9999%20Clarity%20Call";
 
 const FinalCTA = () => (
   <section className="py-20 md:py-28 bg-primary">

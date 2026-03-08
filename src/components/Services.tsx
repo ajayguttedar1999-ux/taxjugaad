@@ -1,6 +1,6 @@
 import ScrollReveal from "./ScrollReveal";
 
-const WA_BASE = "https://wa.me/919XXXXXXXXX?text=";
+const WA_BASE = "https://wa.me/919980591014?text=";
 
 const Services = () => (
   <section className="py-20 md:py-28 bg-secondary">

@@ -1,4 +1,4 @@
-const WA_LINK = "https://wa.me/919XXXXXXXXX?text=Hi%20TaxJugaad%2C%20I%20have%20a%20question%20about%20my%20taxes";
+const WA_LINK = "https://wa.me/919980591014?text=Hi%20TaxJugaad%2C%20I%20have%20a%20question%20about%20my%20taxes";
 
 const WhatsAppButton = () => (
   <a

@@ -10,7 +10,7 @@ const Footer = () => (
         </div>
         <div className="flex gap-6 font-body text-sm">
           <a
-            href="https://wa.me/919XXXXXXXXX?text=Hi%20TaxJugaad"
+            href="https://wa.me/919980591014?text=Hi%20TaxJugaad"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted hover:text-primary transition-colors"
