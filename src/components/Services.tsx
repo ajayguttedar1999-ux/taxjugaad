@@ -41,14 +41,24 @@ const Services = () => (
                 </li>
               ))}
             </ul>
-            <a
-              href={`${WA_BASE}Hi%20TaxJugaad%2C%20I%20want%20to%20join%20the%20Creator%20Club`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 block text-center bg-accent text-foreground font-body font-semibold py-3.5 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
-            >
-              Join the Club →
-            </a>
+            <div className="mt-6 flex flex-col gap-2">
+              <a
+                href={RZP_CLUB}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center bg-accent text-foreground font-body font-semibold py-3.5 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
+              >
+                Pay & Join →
+              </a>
+              <a
+                href={`${WA_BASE}Hi%20TaxJugaad%2C%20I%20want%20to%20join%20the%20Creator%20Club`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center border-2 border-accent text-accent font-body font-semibold py-3 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
+              >
+                Ask on WhatsApp
+              </a>
+            </div>
             <p className="text-center text-xs text-muted mt-2 font-body">Cancel anytime. No lock-in.</p>
           </div>
         </ScrollReveal>
