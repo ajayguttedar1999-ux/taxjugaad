@@ -1,6 +1,9 @@
 import ScrollReveal from "./ScrollReveal";
 
 const WA_BASE = "https://wa.me/919980591014?text=";
+const RZP_CLARITY = "https://rzp.io/rzp/vZ3U9Af";
+const RZP_ITR = "https://rzp.io/rzp/TpGJotxZ";
+const RZP_CLUB = "https://rzp.io/rzp/SHMdymKm";
 
 const Services = () => (
   <section className="py-20 md:py-28 bg-secondary">
@@ -38,14 +41,24 @@ const Services = () => (
                 </li>
               ))}
             </ul>
-            <a
-              href={`${WA_BASE}Hi%20TaxJugaad%2C%20I%20want%20to%20join%20the%20Creator%20Club`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 block text-center bg-accent text-foreground font-body font-semibold py-3.5 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
-            >
-              Join the Club →
-            </a>
+            <div className="mt-6 flex flex-col gap-2">
+              <a
+                href={RZP_CLUB}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center bg-accent text-foreground font-body font-semibold py-3.5 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
+              >
+                Pay & Join →
+              </a>
+              <a
+                href={`${WA_BASE}Hi%20TaxJugaad%2C%20I%20want%20to%20join%20the%20Creator%20Club`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center border-2 border-accent text-accent font-body font-semibold py-3 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
+              >
+                Ask on WhatsApp
+              </a>
+            </div>
             <p className="text-center text-xs text-muted mt-2 font-body">Cancel anytime. No lock-in.</p>
           </div>
         </ScrollReveal>
@@ -60,14 +73,24 @@ const Services = () => (
               Ask your CA anything. Get a written summary after. Follow-up on WhatsApp included.
             </p>
             <p className="font-body text-xs text-muted mt-4">Best for: First-timers, confused about where to start</p>
-            <a
-              href={`${WA_BASE}Hi%20TaxJugaad%2C%20I%20want%20to%20book%20a%20Clarity%20Call`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 block text-center border-2 border-primary text-primary font-body font-semibold py-3.5 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
-            >
-              Book on WhatsApp →
-            </a>
+            <div className="mt-6 flex flex-col gap-2">
+              <a
+                href={RZP_CLARITY}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center bg-primary text-primary-foreground font-body font-semibold py-3.5 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
+              >
+                Pay ₹999 →
+              </a>
+              <a
+                href={`${WA_BASE}Hi%20TaxJugaad%2C%20I%20want%20to%20book%20a%20Clarity%20Call`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center border-2 border-primary text-primary font-body font-semibold py-3 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
+              >
+                Ask on WhatsApp
+              </a>
+            </div>
           </div>
         </ScrollReveal>
 
@@ -81,14 +104,24 @@ const Services = () => (
               YouTube, Stripe, freelance, course income — all reconciled and filed correctly.
             </p>
             <p className="font-body text-xs text-muted mt-4">Best for: Creators with multiple income sources</p>
-            <a
-              href={`${WA_BASE}Hi%20TaxJugaad%2C%20I%20want%20to%20book%20ITR%20Filing`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 block text-center border-2 border-primary text-primary font-body font-semibold py-3.5 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
-            >
-              Book on WhatsApp →
-            </a>
+            <div className="mt-6 flex flex-col gap-2">
+              <a
+                href={RZP_ITR}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center bg-primary text-primary-foreground font-body font-semibold py-3.5 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
+              >
+                Pay ₹1,999 →
+              </a>
+              <a
+                href={`${WA_BASE}Hi%20TaxJugaad%2C%20I%20want%20to%20book%20ITR%20Filing`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center border-2 border-primary text-primary font-body font-semibold py-3 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
+              >
+                Ask on WhatsApp
+              </a>
+            </div>
           </div>
         </ScrollReveal>
       </div>
