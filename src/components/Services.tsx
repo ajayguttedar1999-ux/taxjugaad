@@ -1,6 +1,9 @@
 import ScrollReveal from "./ScrollReveal";
 
 const WA_BASE = "https://wa.me/919980591014?text=";
+const RZP_CLARITY = "https://rzp.io/rzp/vZ3U9Af";
+const RZP_ITR = "https://rzp.io/rzp/TpGJotxZ";
+const RZP_CLUB = "https://rzp.io/rzp/SHMdymKm";
 
 const Services = () => (
   <section className="py-20 md:py-28 bg-secondary">
