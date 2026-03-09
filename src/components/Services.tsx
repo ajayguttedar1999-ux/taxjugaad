@@ -73,14 +73,24 @@ const Services = () => (
               Ask your CA anything. Get a written summary after. Follow-up on WhatsApp included.
             </p>
             <p className="font-body text-xs text-muted mt-4">Best for: First-timers, confused about where to start</p>
-            <a
-              href={`${WA_BASE}Hi%20TaxJugaad%2C%20I%20want%20to%20book%20a%20Clarity%20Call`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 block text-center border-2 border-primary text-primary font-body font-semibold py-3.5 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
-            >
-              Book on WhatsApp →
-            </a>
+            <div className="mt-6 flex flex-col gap-2">
+              <a
+                href={RZP_CLARITY}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center bg-primary text-primary-foreground font-body font-semibold py-3.5 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
+              >
+                Pay ₹999 →
+              </a>
+              <a
+                href={`${WA_BASE}Hi%20TaxJugaad%2C%20I%20want%20to%20book%20a%20Clarity%20Call`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center border-2 border-primary text-primary font-body font-semibold py-3 rounded-xl transition-transform duration-300 hover:scale-[1.02] active:scale-[0.98]"
+              >
+                Ask on WhatsApp
+              </a>
+            </div>
           </div>
         </ScrollReveal>
 
